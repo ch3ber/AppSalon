@@ -3,3 +3,35 @@
    margin: math.div($separacion, 2) 0;
    text-transform: uppercase;
 }
+
+.contenido-resumen {
+   margin-bottom: math.div($separacion, 2) 0;
+
+   p {
+      margin-bottom: 0.5rem;
+      span {
+         font-weight: $bold;
+         color: $azul;
+         font-size: 2.4rem;
+      }
+   }
+   .resumen-servicios {
+      h3 {
+         margin: math.div($separacion, 2) 0;
+      }
+      .contenedor-servicio {
+         margin-bottom: 2rem;
+         padding-bottom: 2rem;
+         border-bottom: 1px solid #43453C;
+         .precio {
+            font-size: 2.4rem;
+            font-weight: $bold;
+            color: $azul;
+         }
+      }
+   }
+}
+
+.total {
+   text-align: right;
+}
