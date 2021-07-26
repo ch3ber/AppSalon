@@ -105,3 +105,6 @@ dist
 
 #work session vim
 mainSession.vim
+#databases
+includes/database.php
+includes/
